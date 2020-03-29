@@ -685,7 +685,15 @@ footer .soc i:hover {
 @media (max-width: 1024px) {
     header .center .scroll {
     display: none;
-}
+    }
+    .container1 .item1, footer .item1, .container5 {
+        width: 85.65%;
+        margin: 0 auto;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -740,7 +748,7 @@ footer .soc i:hover {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        width: 75.4%;
+        width: 85.65%;
         margin: 0 auto;
         padding-top: 50px;
     }
@@ -771,18 +779,18 @@ footer .soc i:hover {
         padding-left: 10px;
     }
     .container3 .item {
-        width: 40%;
+        width: 45%;
     }
     .hov {
         -ms-flex-pack: distribute;
-            justify-content: space-around;
+            justify-content: space-between;
     }
     .ssilka, .container5 .ssilka {
         margin-top: 15px;
         margin-bottom: 15px;
     }
     .container4 .item {
-        width: 90%;
+        width: 85.65%;
     }
     .container5 {
         padding-top: 35px;
@@ -874,11 +882,22 @@ footer .soc i:hover {
            -moz-column-count: 1;
                 column-count: 1;
         text-align: center;
+        width: 100%;
+        margin: 0 auto;
     }
     .card-columns .card {
         margin: 0 auto;
-        width: 70%;
+        width: 100%;
         margin-bottom: 15px;
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    .row {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .container5 .card:nth-child(4), .container5 .card:nth-child(5) {
         height: auto;
@@ -970,8 +989,9 @@ footer .soc i:hover {
         padding-left: 5px;
     }
     .container3 .item {
-        width: 80%;
+        width: 100%;
     }
+
 }
 
 @media (max-width: 360px) {
