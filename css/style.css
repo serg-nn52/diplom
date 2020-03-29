@@ -14,7 +14,10 @@ p {
     height: 100vh;
     margin: 0 auto;
 }
-
+.center {
+    width: 85.65%;
+    margin: 0 auto;
+}
 
 .container1 .item1, footer .item1 {
     display: -webkit-box;
@@ -590,14 +593,14 @@ form p {
     color: #ffffff;
 }
 
-input {
+input, textarea {
     width: 100%;
     background-color: #171515;
     border: none;
     border-bottom: 1px solid #515050;
     color: #ffffff;
 }
-input[name="message"] {
+textarea {
     height: 80px;
 }
 form .form-right input {
