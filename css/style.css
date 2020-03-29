@@ -15,109 +15,6 @@ p {
     margin: 0 auto;
 }
 
-header {
-    height: 100vh;
-    max-height: 820px;
-    min-height: 450px;
-    background-image: url(../images/header.jpg);
-    background-size: cover;
-    /* padding: 55px 0; */
-}
-.center {
-    width: 85.65%;
-    margin: 0 auto;
-}
-.header_top {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 55px;
-    padding-bottom: 130px;
-    /* height: 50px; */
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
-.header_top p{
-    color: #feffff;
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-}
-.header_top ul li {
-    display: block;
-    margin-top: 5px;
-}
-header .menu {
-    display: none;
-}
-header .show {
-    display: block;
-    position: absolute;
-    z-index: 100;
-    top: 58px;
-    right: 60px;
-}
-.header_top .menu li {
-    display: block;
-    padding: 5px 15px;
-    background-color: rgba(0, 0, 0, 0.4);
-    text-align: right;
-    margin: 0;
-}
-header .burger {
-    cursor: pointer;
-}
-.header_top ul li i {
-    display: block;
-    width: 45px;
-    height: 5px;
-    background-color: #feffff;
-    border-radius: 3px;
-}
-header h1 {
-    color: #ffffff;
-    font-size: 38px;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    line-height: normal;
-}
-header a {
-    color: #ffffff;
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-}
-header a:hover {
-    color: #898989;
-}
-
-header .scroll {
-    margin-top: 150px;
-    color: #ffffff;
-    font-size: 11px;
-    font-family: 'Lato', sans-serif;
-    font-weight: lighter;
-    text-align: center;
-}
-header .scroll a{
-    color: #ffffff;
-    font-size: 11px;
-    font-family: 'Lato', sans-serif;
-    font-weight: lighter;
-    text-align: center;
-}
-header .scroll a:hover {
-    color: #898989;
-}
-header .scroll i{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
 
 .container1 .item1, footer .item1 {
     display: -webkit-box;
@@ -771,7 +668,7 @@ footer .soc i:hover {
 
 
 @media (max-width: 1300px) {
-    header .scroll {
+    header .center .scroll {
         margin-top: 120px;
 
     }
@@ -783,7 +680,7 @@ footer .soc i:hover {
     
 }
 @media (max-width: 1024px) {
-header .scroll {
+    header .center .scroll {
     display: none;
 }
 }
@@ -992,7 +889,7 @@ header .scroll {
 }
 
 @media (max-width: 510px) {
-    header h1 {
+    header .center h1 {
         font-size: 30px;
     }
     .container1 p {
@@ -1075,10 +972,10 @@ header .scroll {
 }
 
 @media (max-width: 360px) {
-    .header_top .menu li {
+    header .center .header_top .menu li {
         padding: 5px;
     }
-    .header_top p {
+    header .center .header_top p {
         font-size: 16px;
     }
     .container1 .item1_left .social {

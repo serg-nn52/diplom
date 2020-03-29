@@ -1,0 +1,132 @@
+header {
+  height: 100vh;
+  max-height: 820px;
+  min-height: 450px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+}
+
+header .center {
+  width: 85.65154%;
+  margin: 0 auto;
+}
+
+header .center .header_top {
+  /* position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            padding-top: 55px;
+            padding-bottom: 130px;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; */
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 55px;
+  padding-bottom: 130px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .center .header_top p {
+  color: #feffff;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+header .center .header_top .burger {
+  cursor: pointer;
+}
+
+header .center .header_top .burger li {
+  display: block;
+  margin-top: 5px;
+}
+
+header .center .header_top .burger li i {
+  display: block;
+  width: 45px;
+  height: 5px;
+  background-color: #feffff;
+  border-radius: 3px;
+}
+
+header .center .header_top .menu {
+  display: none;
+}
+
+header .center .header_top .menu li {
+  display: block;
+  padding: 5px 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: right;
+  margin: 0;
+}
+
+header .center .header_top .show {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: 58px;
+  right: 60px;
+}
+
+header .center h1 {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  size: 38px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: normal;
+}
+
+header .center a {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+
+header .center a:hover {
+  color: #898989;
+}
+
+header .center #scroll {
+  margin-top: 150px;
+  /* color: #ffffff;
+            font-size: 11px;
+            font-family: $lato;
+            font-weight: lighter;
+            text-align: center;  */
+}
+
+header .center #scroll .a1 {
+  color: #ffffff;
+}
+
+header .center #scroll .a1:hover {
+  color: #898989;
+}
+
+header .center #scroll .a1 p {
+  font-size: 11px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+header .center #scroll .a1 span i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=style1.css.map */
