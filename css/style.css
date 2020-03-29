@@ -1,5 +1,7 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
- a:hover {
+
+a:hover {
     text-decoration: none;
     color: white;
 }
@@ -26,12 +28,18 @@ header {
 }
 .header_top {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 55px;
     padding-bottom: 130px;
     /* height: 50px; */
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .header_top p{
     color: #feffff;
@@ -111,16 +119,24 @@ header .scroll i{
 }
 
 .container1 .item1, footer .item1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 75.4%;
     margin: 0 auto;
     padding-top: 140px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .container1 .item2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .container1 .item1_left {
     width: 60%;
@@ -179,7 +195,8 @@ header .scroll i{
     max-width: 90%;
 }
 .container1 .item1_top {
-    flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
     width: 33%;
     text-align: center;
     padding-top: 105px;
@@ -204,15 +221,22 @@ header .scroll i{
     position: relative;
 }
 .container2 .ten {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: rgba(0, 0, 0, 0.5);
     max-width: 100%;
     height: 205px;
     padding: 0 12.3%;
     margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     margin-bottom: 140px;
 }
@@ -229,15 +253,25 @@ header .scroll i{
     font-style: italic;
 }
 .container3 .top3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 140px;
     margin-bottom: 105px;
 }
 .container3 .top3 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
 }
 .container3 .top3 h2 {
     font-family: 'Lato', sans-serif;
@@ -261,7 +295,8 @@ header .scroll i{
     width: 100%;
     height: 230px;
     text-align: center;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     z-index: 1;
     line-height: 230px;
     margin-bottom: 20px;
@@ -270,9 +305,14 @@ header .scroll i{
 }
 .hov {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .container3 .cards_after {
     position: absolute;
@@ -283,7 +323,8 @@ header .scroll i{
     left: 0;
     right: 0; 
     text-align: center;
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
     z-index: -1;
 }
 .container3 .cards_after p {
@@ -316,21 +357,24 @@ header .scroll i{
     left: 0;
     right: 0; 
     text-align: center;
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
     z-index: 222;
 }
 .container3 .item:hover {
     cursor: pointer;
 }
 .container3 .cards img {
-    object-fit: none;
+    -o-object-fit: none;
+       object-fit: none;
     width: 100%;
     height: 100%;
 }
 
 
 .container3 .cards .obrez {
-    object-fit: none;
+    -o-object-fit: none;
+       object-fit: none;
     width: 100%;
     height: 110%;
 }
@@ -362,9 +406,15 @@ header .scroll i{
     margin: 0 auto;
     height: 365px;
     max-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .container4 .car h4 {
@@ -410,6 +460,8 @@ header .scroll i{
     background: none; 
     display: block;
    /*  -webkit-backface-visibility: visible; */
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
     transition: opacity .2s ease;
     border: solid 2px #dfdfe0;
     border-radius: 30px;
@@ -459,7 +511,8 @@ header .scroll i{
 .container5 .card img {
     max-width: 100%;
     /* max-height: 100%; */
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .container5 .card .play{
     display: none;
@@ -495,15 +548,25 @@ header .scroll i{
     vertical-align: middle;
 }
 .container5 .clock {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 25px;
     margin-bottom: 20px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .card_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 10px;
 }
 .right {
@@ -526,23 +589,32 @@ header .scroll i{
     padding-left: 0px;
 }
 .container5 .clock_c2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 25px;
     margin-bottom: 20px;
     width: 90%;
 }
 .container5 .cb2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .grey {
-    filter: grayscale(20%);
+    -webkit-filter: grayscale(20%);
+            filter: grayscale(20%);
     height: auto;
     width: 100%;
     max-height: 210px;
 }
 .container5 .card:hover {
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
     cursor: pointer;
 }
 .container5 .ssilka {
@@ -559,7 +631,8 @@ footer {
 }
 footer .item1 {
 padding-top: 100px;
-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 footer .contact {
     width: 45%;
@@ -600,11 +673,18 @@ footer .mail p i, footer .phone p i {
     padding-right: 20px;
 }
 form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
-    align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 form p {
     font-family: 'Lato', sans-serif;
@@ -733,10 +813,18 @@ header .scroll {
 
 @media (max-width: 800px) {
     .container1 .item2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 100%;
     }
     .container1 .item1_left {
@@ -748,6 +836,8 @@ header .scroll {
         margin-bottom: 20px;
     }
     .container1 .item1, footer .item1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 75.4%;
         margin: 0 auto;
@@ -783,7 +873,8 @@ header .scroll {
         width: 40%;
     }
     .hov {
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
     .ssilka, .container5 .ssilka {
         margin-top: 15px;
@@ -796,7 +887,9 @@ header .scroll {
         padding-top: 35px;
     }
     .card-columns {
-        column-count: 2;
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2;
     }
     .container5 .time {
         width: 40%;
@@ -841,9 +934,16 @@ header .scroll {
 
 @media (max-width: 680px) {
     footer .item1:last-child {
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     footer .bottom-footer, footer .bottom-footer .soc {
         text-align: center;
@@ -854,7 +954,10 @@ header .scroll {
     .container3 .top3 {
         margin-top: 15px;
         margin-bottom: 15px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 }
 @media (max-width: 600px) {
@@ -866,7 +969,9 @@ header .scroll {
         width: 50%;
     }
     .card-columns {
-        column-count: 1;
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+                column-count: 1;
         text-align: center;
     }
     .card-columns .card {
@@ -924,9 +1029,15 @@ header .scroll {
         width: 100%;
     }
     .container4 .item {
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .container4 .car p span {
         display: none;
@@ -979,6 +1090,7 @@ header .scroll {
         top: 40px;
     }
 }
+
 
 
 
