@@ -18,6 +18,7 @@ p {
 header {
     height: 100vh;
     max-height: 820px;
+    min-height: 450px;
     background-image: url(../images/header.jpg);
     background-size: cover;
     /* padding: 55px 0; */
