@@ -602,6 +602,7 @@ input, textarea {
 }
 textarea {
     height: 80px;
+    resize: none;
 }
 form .form-right input {
     height: 20px;
