@@ -437,10 +437,10 @@ p {
     margin: 0;
 }
 .container5 .c1 h5 {
-    width: 70%;
+    width: 74%;
 }
 .container5 .time {
-    width: 30%;
+    width: 50%;
 /*     text-align: right; */
 }
 .container5 .time i {
@@ -466,7 +466,7 @@ p {
         -ms-flex-pack: end;
             justify-content: flex-end;
     -webkit-box-align: center;
-        -ms-flex-align: center;
+        -ms-flex-align: left;
             align-items: center;
     padding-top: 10px;
 }
@@ -666,7 +666,31 @@ footer .soc i:hover {
 
 
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+    /* IE10+ specific styles go here */  
 
+    .right {
+        width: 10%;
+        margin-left: -70px;
+    }
+    header .center #scroll {
+        margin-top: 100px;
+        /* color: #ffffff;
+                  font-size: 11px;
+                  font-family: $lato;
+                  font-weight: lighter;
+                  text-align: center;  */
+      }
+
+      header .center .header_top {
+        position: relative;
+      }
+      header .center .header_top .burger {
+        display: block;
+        position: absolute;
+        
+      }
+ }
 
 
 
